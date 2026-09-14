@@ -1,0 +1,7 @@
+{
+  "name": "CorebIQ AI",
+  "description": "Your Compliance AI Assistant for business registrations, Trademark classes, MCA filings, GST, taxes, and statutory compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

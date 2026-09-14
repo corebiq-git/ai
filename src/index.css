@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-surface: #F0F4F8;
+  --color-user-bubble: #D3E3FD;
+  --color-user-text: #041E49;
+  --color-text-main: #1F1F1F;
+  --color-text-secondary: #444746;
+}
+
+html, body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #F0F4F8;
+  color: #1F1F1F;
+}
+
+/* Custom scrollbar for chat log */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.22);
+}
